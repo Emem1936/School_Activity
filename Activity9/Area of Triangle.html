@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>JavaScript program to calculate multiplication and division of two numbers</title>
+<style type="text/css">
+body {margin: 30px;}
+</style>
+<script>
+function multiplyBy()
+{
+	num1 =document.getElementById("firstNumber").value;
+	num2 =document.getElementById("secondNumber").value;
+	document.getElementById("result").innerHTML=(num1*num2)/2;
+}
+
+
+</script>
+</head>
+<body>
+<form>
+Height: <input type="text" id="firstNumber" /><br>
+Base: <input type="text" id="secondNumber" /><br>
+<input type="button" onClick="multiplyBy()" Value="Area" />
+
+</form>
+<p>The Area is: <br>
+<span id= "result"></span>
+</p>
+</body>
+</html>
