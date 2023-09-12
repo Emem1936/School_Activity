@@ -1,0 +1,228 @@
+<html><head><title>STudent Registration Form</title>
+<style>
+h3{
+	font-family: Calibri;
+	font-size: 225pt;
+	font-style: normal;
+	font-weight: bold;
+	color: blue;
+	text-align: center;
+	text-decoration: underline
+}
+table{
+	font-family: Arial;
+	color:white;
+	font-size: 11pt;
+	font-style: normal;
+	font-weight: bold;
+	text-align:;
+	background-color: blue;
+	border-collapse: collapse;
+	border:2px solid navy
+}
+table.inner{
+	border:0px;
+}
+</style></head><body>
+<div class="container">
+<form action="/action_page.php">
+
+<tr><td>FIRST NAME </td>
+<td><input type="text" id="
+fname" name="fisrtname" placeholder="Your Name.." style="width:30%"></td></tr><br>
+
+<tr><td>LAST NAME </td>
+<td><input type="text" id="lname" name="lastname" placeholder="Your Last Name.." style="width:30%"></td></tr><br>
+
+<label for="dob">DATE OF BIRTH</label>
+<select id="dob" name="DOB" style="width:10%">
+<option value="Day">Day</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<select id="mo" name="Mo" style="width:10%">
+<option value="Month">Month</option>
+<option value="January">January</option>
+<option value="February">February</option>
+<option value="March">March</option>
+<option value="April">April</option>
+<option value="May">May</option>
+<option value="June">June</option>
+<option value="July">July</option>
+<option value="August">August</option>
+<option value="September">September</option>
+<option value="October">October</option>
+<option value="November">November</option>
+<option value="December">December</option></select>
+
+<select id="ye" name="Ye" style="width:10%">
+<option value="year">Day</option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option></select><br>
+
+<tr><td> EMAIL ID </td>
+<td><input type="text" id="
+fname" name="Email Id" style="width:30%"><br></td></tr>
+
+<tr><td> MOBILE NUMBER </td>
+<td><input type="text" id="
+fname" name="Mobile Number" style="width:30%"><br></td></tr>
+
+<label for="gender">GENDER </label>
+<input type="radio" name="gender" value="Male" checked="checked"/> Male
+<input type="radio" name="gender" value="Femaale" checked="checked"/> Female <br><br>
+
+<tr>
+<td>ADDRESS <br /><br /><br /></td>
+<td><textarea name="Address" rows="4" cols="30"></textarea></td>
+</tr>
+ 
+
+<tr>
+<td>CITY</td>
+<td><input type="text" name="City" maxlength="30" />
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+
+<tr>
+<td>PIN CODE</td>
+<td><input type="text" name="Pin_Code" maxlength="6" />
+(6 digit number)
+</td>
+</tr>
+ 
+<tr>
+<td>STATE</td>
+<td><input type="text" name="State" maxlength="30" />
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+<tr>
+<td>COUNTRY</td>
+<td><input type="text" name="Country" value="India" readonly="readonly" /></td>
+</tr>
+ 
+ 
+<tr>
+<td>HOBBIES <br /><br /><br /></td>
+ 
+<td>
+Drawing
+<input type="checkbox" name="Hobby_Drawing" value="Drawing" />
+Singing
+<input type="checkbox" name="Hobby_Singing" value="Singing" />
+Dancing
+<input type="checkbox" name="Hobby_Dancing" value="Dancing" />
+Sketching
+<input type="checkbox" name="Hobby_Cooking" value="Cooking" />
+<br />
+Others
+<input type="checkbox" name="Hobby_Other" value="Other">
+<input type="text" name="Other_Hobby" maxlength="30" />
+</td>
+</tr>
+ 
+<tr>
+<td>QUALIFICATION <br /><br /><br /><br /><br /><br /><br /></td>
+ 
+<td>
+<table>
+ 
+<tr>
+<td align="center"><b>Sl.No.</b></td>
+<td align="center"><b>Examination</b></td>
+<td align="center"><b>Board</b></td>
+<td align="center"><b>Percentage</b></td>
+<td align="center"><b>Year of Passing</b></td>
+</tr>
+ 
+<tr>
+<td>1</td>
+<td>Class X</td>
+<td><input type="text" name="ClassX_Board" maxlength="30" /></td>
+<td><input type="text" name="ClassX_Percentage" maxlength="30" /></td>
+<td><input type="text" name="ClassX_YrOfPassing" maxlength="30" /></td>
+</tr>
+ 
+<tr>
+<td>2</td>
+<td>Class XII</td>
+<td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+<td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+<td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" /></td>
+</tr>
+ 
+<tr>
+<td>3</td>
+<td>Graduation</td>
+<td><input type="text" name="Graduation_Board" maxlength="30" /></td>
+<td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+<td><input type="text" name="Graduation_YrOfPassing" maxlength="30" /></td>
+</tr>
+ 
+<tr><td>4</td>
+<td>Masters</td>
+<td><input type="text" name="Masters_Board" maxlength="30" /></td>
+<td><input type="text" name="Masters_Percentage" maxlength="30" /></td>
+<td><input type="text" name="Masters_YrOfPassing" maxlength="30" /></td></tr>
+ 
+<tr><td></td><td></td>
+<td align="center">(10 char max)</td>
+<td align="center">(upto 2 decimal)</td></tr>
+</table></td></tr>
+ 
+<tr><td>COURSES<br />APPLIED FOR</td>
+<td>
+BCA
+<input type="radio" name="Course_BCA" value="BCA">
+B.Com
+<input type="radio" name="Course_BCom" value="B.Com">
+B.Sc
+<input type="radio" name="Course_BSc" value="B.Sc">
+B.A
+<input type="radio" name="Course_BA" value="B.A"></td></tr>
+
+<tr><td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset"></td></tr>
+</table></form></body></html>
