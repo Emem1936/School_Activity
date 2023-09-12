@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Convert Decimal to Binary, Hexadecimal and Octal</title>
+</head>
+<body>
+
+<br>
+<br>
+<b>Insert Decimal Number: </b><input type = "number" name = "dec" id = "dec">
+<input type="button" value="Convert!" onclick="conv()">
+<br>
+<br>
+<div id = "result"></div>
+
+<script>
+
+function conv() {
+var x = document.getElementById("dec").value;
+x = parseInt(x);
+var bin = x.toString(2);
+var hex = x.toString(16).toUpperCase();
+var octal = x.toString(8);
+
+
+var ans = "The binary representation of " + x + " is " + bin + "<br>";
+ans = ans + "The hexadecimal representation of " + x + " is " + hex + "<br>";
+ans = ans + "The octal representation of " + x + " is " + octal + "<br>";
+
+document.getElementById("result").innerHTML = ans;
+}
+
+</script>
+</body>
+</html>

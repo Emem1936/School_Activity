@@ -1,0 +1,75 @@
+<html>
+<title> Speed Converter</title>
+<style type="text/css">
+body {background-color: violet;}
+</style>
+<body>
+<h2>Speed Converter</h2>
+<p> Type a value in any of the fields to convert between speed measurements:</p>
+
+
+
+<p>
+MPH:
+<input id="inputMph" type="number" placeholder="MPH" oninput="mphConverter(this.value)" onchange="mphConverter(this.value)" name=mph> 
+
+</p>
+
+<p>
+Knots:
+<input id="inputKnots" type="number" placeholder="Knots" oninput="knotsConverter(this.value)" onchange="knotsConverter(this.value)" name="knots">
+
+</p>
+
+<p>
+KPH:
+<input id="inputKph" type="number" placeholder="KPH" oninput="kphConverter(this.value)" onchange="kphConverter(this.value)" name="kph">
+
+</p>
+
+<p>
+Mach:
+<input id="inputMach" type="number" placeholder="Mach" oninput="machConverter(this.value)" onchange="machConverter(this.value)" name="mach">
+
+</p>
+
+
+
+<script>
+	function mphConverter(valNum) {
+		valNum=parseFloat(valNum);
+
+		document.getElementById("outputKnots").value=(valNum/1.150779);
+		document.getElementById("outputKph").value=(valNum*1.609344);
+		document.getElementById("outputMach").value=(valNum/761.207);
+	}
+		
+		function knotsConverter(valNum) {
+		valNum=parseFloat(valNum);
+
+		document.getElementById("outputMph").value=(valNum*1.150779);
+		document.getElementById("outputKph").value=(valNum*1.852);
+		document.getElementById("outputMach").value=(valNum/661.4708);
+	}
+		function kphConverter(valNum) {
+		valNum=parseFloat(valNum);
+
+		document.getElementById("outputMph").value=(valNum/1.609344);
+		document.getElementById("outputKnots").value=(valNum/1.852);
+		document.getElementById("outputMach").value=(valNum/1225.044);
+
+	}
+		function machConverter(valNum) {
+		valNum=parseFloat(valNum);
+
+		document.getElementById("outputMph").value=(valNum*761.207);
+		document.getElementById("outputKph").value=(valNum*1225.044);
+		document.getElementById("outputKnots").value=(valNum*661.4708);
+		
+	}
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+<title> Weight Converter</title>
+<body>
+<h2>Weight Converter</h2>
+<p> Type a value in any of the fields to convert between weight measurements:</p>
+
+<p>
+<label>Pounds</label>
+
+<input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+
+</p>
+
+<p>Ounces: <span id="outputOunces"></span></p>
+<p>Stones: <span id="outputStones"></span></p>
+<p>Kilograms: <span id="outputKilograms"></span></p>
+<p>Grams: <span id="outputGrams"></span></p>
+
+<script>
+	function weightConverter(valNum) {
+		valNum=parseFloat(valNum);
+		document.getElementById("outputOunces").innerHTML=(valNum*16);
+		document.getElementById("outputStones").innerHTML=(valNum*0.17149);
+		document.getElementById("outputKilograms").innerHTML=(valNum/2.2024);
+		document.getElementById("outputGrams").innerHTML=(valNum/0.0022046);
+	}
+</script>
+</body>
+</html>
