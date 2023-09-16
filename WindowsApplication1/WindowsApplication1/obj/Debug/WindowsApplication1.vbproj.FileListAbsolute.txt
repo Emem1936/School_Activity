@@ -1,0 +1,10 @@
+D:\Pingguuuu\Downloads\Important\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+D:\Pingguuuu\Downloads\Important\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+D:\Pingguuuu\Downloads\Important\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+D:\Pingguuuu\Downloads\Important\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+D:\Pingguuuu\Downloads\Important\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+D:\Pingguuuu\Downloads\Important\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+D:\Pingguuuu\Downloads\Important\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+D:\Pingguuuu\Downloads\Important\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+D:\Pingguuuu\Downloads\Important\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+D:\Pingguuuu\Downloads\Important\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb

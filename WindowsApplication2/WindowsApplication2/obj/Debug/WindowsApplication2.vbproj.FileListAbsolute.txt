@@ -1,0 +1,10 @@
+D:\Pingguuuu\Downloads\Important\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.exe.config
+D:\Pingguuuu\Downloads\Important\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.Form1.resources
+D:\Pingguuuu\Downloads\Important\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.Resources.resources
+D:\Pingguuuu\Downloads\Important\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.vbproj.GenerateResource.Cache
+D:\Pingguuuu\Downloads\Important\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.exe
+D:\Pingguuuu\Downloads\Important\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.pdb
+D:\Pingguuuu\Downloads\Important\WindowsApplication2\WindowsApplication2\bin\Debug\WindowsApplication2.xml
+D:\Pingguuuu\Downloads\Important\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.exe
+D:\Pingguuuu\Downloads\Important\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.xml
+D:\Pingguuuu\Downloads\Important\WindowsApplication2\WindowsApplication2\obj\Debug\WindowsApplication2.pdb
